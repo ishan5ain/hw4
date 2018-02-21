@@ -32,53 +32,53 @@ function setup() {
   backgroundColor = color(255, 0, 255);
   textAlign(CENTER);
 
-  oscF3 = new p5.Oscillator();
-  oscF3.setType('triangle');
-  oscF3.freq(notes[4]);
-  oscF3.amp(0);
-  oscF3.start();
-
-  oscG3 = new p5.Oscillator();
-  oscG3.setType('triangle');
-  oscG3.freq(notes[5]);
-  oscG3.amp(0);
-  oscG3.start();
-
-  oscA3 = new p5.Oscillator();
-  oscA3.setType('triangle');
-  oscA3.freq(notes[6]);
-  oscA3.amp(0);
-  oscA3.start();
-
-  oscB3 = new p5.Oscillator();
-  oscB3.setType('triangle');
-  oscB3.freq(notes[7]);
-  oscB3.amp(0);
-  oscB3.start();
-
-  // oscB2 = new p5.Oscillator();
-  // oscB2.setType('triangle');
-  // oscB2.freq(notes[0]);
-  // oscB2.amp(0);
-  // oscB2.start();
+  // oscF3 = new p5.Oscillator();
+  // oscF3.setType('triangle');
+  // oscF3.freq(notes[4]);
+  // oscF3.amp(0);
+  // oscF3.start();
   //
-  // oscC3 = new p5.Oscillator();
-  // oscC3.setType('triangle');
-  // oscC3.freq(notes[1]);
-  // oscC3.amp(0);
-  // oscC3.start();
+  // oscG3 = new p5.Oscillator();
+  // oscG3.setType('triangle');
+  // oscG3.freq(notes[5]);
+  // oscG3.amp(0);
+  // oscG3.start();
   //
-  // oscD3 = new p5.Oscillator();
-  // oscD3.setType('triangle');
-  // oscD3.freq(notes[2]);
-  // oscD3.amp(0);
-  // oscD3.start();
+  // oscA3 = new p5.Oscillator();
+  // oscA3.setType('triangle');
+  // oscA3.freq(notes[6]);
+  // oscA3.amp(0);
+  // oscA3.start();
   //
-  // oscE3 = new p5.Oscillator();
-  // oscE3.setType('triangle');
-  // oscE3.freq(notes[3]);
-  // oscE3.amp(0);
-  // oscE3.start();
+  // oscB3 = new p5.Oscillator();
+  // oscB3.setType('triangle');
+  // oscB3.freq(notes[7]);
+  // oscB3.amp(0);
+  // oscB3.start();
+
+  oscB2 = new p5.Oscillator();
+  oscB2.setType('triangle');
+  oscB2.freq(notes[0]);
+  oscB2.amp(0);
+  oscB2.start();
+
+  oscC3 = new p5.Oscillator();
+  oscC3.setType('triangle');
+  oscC3.freq(notes[1]);
+  oscC3.amp(0);
+  oscC3.start();
+
+  oscD3 = new p5.Oscillator();
+  oscD3.setType('triangle');
+  oscD3.freq(notes[2]);
+  oscD3.amp(0);
+  oscD3.start();
+
+  oscE3 = new p5.Oscillator();
+  oscE3.setType('triangle');
+  oscE3.freq(notes[3]);
+  oscE3.amp(0);
+  oscE3.start();
 }
 
 function draw() {
